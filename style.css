@@ -3,3 +3,39 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    border: 2px solid red;
+    padding: 0 5% 0 5%;
+}
+
+.grid-container {
+    display: grid;
+}
+
+/* --------------------------Top section css ------------------------ */
+header {
+    border: 1px solid blue;
+}
+/* spacing the logo and links */
+nav {
+    border: 1px solid green;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0 10px 0;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.links-container {
+    display: flex;
+    align-items: center;
+}
+
+.links-container li {
+    padding-left: 15px;
+    list-style-type: none;
+}
