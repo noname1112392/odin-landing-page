@@ -39,3 +39,20 @@ nav {
     padding-left: 15px;
     list-style-type: none;
 }
+/* bottom of the header container */
+.bttm-c {
+    display: grid;
+    grid-template-columns: 45% 5% 45%;
+    grid-template-rows: auto;
+}
+.leftside-c {
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.rightside-c {
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+.bttm-header-container {
+
+}
