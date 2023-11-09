@@ -6,7 +6,7 @@
 }
 
 body {
-    border: 2px solid red;
+    background: #1f2937;
     padding: 0 10% 0 10%;
     height: 100vh;
     display: grid;
@@ -20,7 +20,6 @@ body {
 
 /* --------------------------Top section css ------------------------ */
 header {
-    border: 1px solid blue;
     background: #1f2937;
     grid-row-start: 1;
     grid-row-end; 2;
@@ -28,7 +27,6 @@ header {
 }
 /* spacing the logo and links */
 nav {
-    border: 1px solid green;
     display: flex;
     justify-content: space-between;
     padding: 10px 0 10px 0;
@@ -58,10 +56,9 @@ nav {
 /* bottom of the header container */
 .bttm-c {
     display: grid;
-    grid-template-columns: 45% 10% 45%;
+    grid-template-columns: 50% 50%;
     grid-template-rows: auto;
     height: 80%;
-    border: 1px red solid;
 }
 .leftside-c {
     grid-column-start: 1;
@@ -69,27 +66,38 @@ nav {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    row-gap: 30px;
 }
 .rightside-c {
-    grid-column-start: 3;
+    grid-column-start: 2;
     grid-column-end: 4;
-    border: 1px gray solid;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    background-color: gray;
-}
-.bttm-header-container {
-    width: 100%;
+    border: 1px solid gray;
+    height: 60%;
+    width: 70%;
+    align-self: center;
+    justify-self: end;
+    background: gray;
+} 
+
+.bttm-header-container h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
 }
 .signup-btn {
-    width: 85px;
-    height: 25px;
+    width: 90px;
+    height: 30px;
+    background-color: #3882f6;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
 }
 /*middle section*/
 main {
-    border: 1px solid orange;
+    background: white;
 }
 /*top of main section*/
 .top-main-section {
@@ -118,7 +126,6 @@ h2 {
 }
 /*bottom of main section*/
 .bottom-main-section {
-    border: 1px dashed red;
     background-color: gray;
     height: 50%;
     padding: 0 120px 0 120px;
@@ -128,22 +135,24 @@ h2 {
 .bottom-main-container {
     display: flex;
     flex-direction: column;
-    border: 1px solid blue;
     width: 90%;
     gap: 20px;
 }
 .bottom-main-section-fig {
-    border: 1px solid green;
     display: flex;
     justify-content: flex-end;
 }
 /*footer section*/
 footer {
-    border: 1px solid blue;
+    background: white;
 }
 .top-footer-section {
     height: 70%;
 }
 .bottom-footer-section {
-    border: 1px solid green;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1f2937;
 }
