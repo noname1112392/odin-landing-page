@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    color: white;
 }
 
 body {
@@ -20,6 +21,7 @@ body {
 /* --------------------------Top section css ------------------------ */
 header {
     border: 1px solid blue;
+    background: #1f2937;
     grid-row-start: 1;
     grid-row-end; 2;
     height: 100%;
@@ -36,17 +38,22 @@ nav {
 .logo-container {
     display: flex;
     align-items: center;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
 }
 
 .links-container {
     display: flex;
     align-items: center;
-
+    height: 100%;
 }
 
 .links-container li {
     padding-left: 15px;
     list-style-type: none;
+    font-size: 18px;
+    color: #e5e7eb;
 }
 /* bottom of the header container */
 .bttm-c {
