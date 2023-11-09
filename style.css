@@ -134,3 +134,9 @@ h2 {
 footer {
     border: 1px solid blue;
 }
+.top-footer-section {
+    height: 70%;
+}
+.bottom-footer-section {
+    border: 1px solid green;
+}
