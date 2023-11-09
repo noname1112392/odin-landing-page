@@ -145,9 +145,16 @@ h2 {
     width: 90%;
     gap: 20px;
 }
+.bottom-main-container i {
+    color: black;
+    font-size: 30px;
+}
 .bottom-main-section-fig {
     display: flex;
     justify-content: flex-end;
+    color: black;
+    font-weight: bold;
+    font-size: 28px;
 }
 /*footer section*/
 footer {
@@ -175,4 +182,7 @@ footer {
 }
 .btmbtn {
     border: 2px solid white;
+}
+h4 {
+    font-size: 20px;
 }
